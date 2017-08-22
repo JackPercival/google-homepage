@@ -1,0 +1,104 @@
+#logo {
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+  left:500px;
+}
+
+div.content { width: 700px }
+.microphone {
+  width:13px;
+  height: 18px;
+  position: absolute;
+  top:325px;
+  left:930px;
+  z-index: 1000;
+}
+
+.microphone:hover .hi {
+display: block;
+z-index: 20;
+color:red;
+}
+.buttons:hover{
+  text-decoration: none;
+}
+.hi {
+  position: relative;
+  top:300px;
+  left:890px;
+}
+.searchbar {
+  width: 600px;
+  height: 25px;
+  position: absolute;
+  top: 320px;
+  left: 350px;
+}
+
+.leftfooter {
+  clear: none;
+  position: absolute;
+  top:630px;
+  left:-30px;
+}
+
+.rightfooter {
+  clear: none;
+  position: absolute;
+  top:650px;
+  left:1100px;
+}
+
+.header {
+  position: absolute;
+  top: 5px;
+  left:1000px;
+}
+
+li {
+  display: inline;
+}
+
+.search, .lucky {
+  padding: 5px;
+  background-color: rgba(245,245,245,1);
+  border: 1px solid white;
+}
+
+.search:hover, .lucky:hover {
+  border: 1px solid black;
+}
+
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+.buttons {
+  position: relative;
+  top: 360px;
+  left:510px;
+}
+
+.box {
+  position: absolute;
+  width: 1274px;
+  top:645px;
+  height: 38px;
+  background-color: rgba(245,245,245,1)
+}
+
+a:visited{
+  color: black;
+  text-decoration: none;
+}
+a:link{
+  color:black;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration: underline;
+}
